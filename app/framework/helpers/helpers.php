@@ -11,11 +11,9 @@
     function routeExecute()
     {
         try {
-            $routes = require 'app/routes/routes.php';
+            $routes = require '../app/routes/routes.php';
         } catch (\Throwable $th) {
             var_dump($th->getMessage());
         }
     }
-
-
 ?>
