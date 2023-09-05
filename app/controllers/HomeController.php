@@ -1,12 +1,13 @@
 <?php 
 
-namespace app\controllers;
+namespace app\controllers\view;
 
 class HomeController{
+
     public function index() 
     {
-          var_dump('home');  
+        view('home', ['nome' => 'Gabriel', 'age' => '40']); 
     }
-}
 
+}
 ?>
