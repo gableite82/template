@@ -1,3 +1,8 @@
 <?php 
-    echo "teste1";
+
+    session_start();
+    require '../vendor/autoload.php';
+
+    routeExecute();
+    
 ?>
