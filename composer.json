@@ -1,0 +1,15 @@
+{
+    "name": "gabriel/template",
+    "autoload": {
+        "psr-4": {
+            "Gabriel\\Template\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Gabriel Leite",
+            "email": "gabrielleite82@hotmail.com"
+        }
+    ],
+    "require": {}
+}
