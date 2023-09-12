@@ -2,14 +2,8 @@
     "name": "gabriel/template",
     "autoload": {
         "psr-4": {
-            "app\\": "app/"
-        },
-        "files": [
-            "app/framework/helpers/helpers.php"
-        ]
-    },
-    "script": {
-        "server": "php -S localhost:8000 -t public"
+            "Gabriel\\Template\\": "src/"
+        }
     },
     "authors": [
         {
